@@ -67,7 +67,7 @@ params:
     intro: "Hi, my name is"
     title: "Ricky."
     subtitle: "Systems Engineer SME"
-    content: "Highly experienced Systems Engineer with a strong foundation in Aerospace and Mechanical engineering, complemented by extensive computer science expertise and over 10 years specializing in the analysis, safety, and testing of critical human spaceflight software."
+    content: "Highly experienced Systems Engineer with a strong foundation in Aerospace and Mechanical engineering, complemented by extensive computer science expertise and over 14 years specializing in the analysis, safety, and testing of critical human spaceflight software including the use of digital twin and advanced software simulation environents."
     image: /images/header.jpg
     bottomImage:
       enable: true
@@ -91,7 +91,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      "Systems Engineer trained in Aerospace and Mechanical Engineering with an extensive computer science background. Over 14 years of experience in analyzing complex systems focusing on safety and mission critical human space flight software. Additional expertise with digital twin environments in research, design, and execution of dynamic test cases for spacecraft flight software utilizing advanced simulation software packages. I am currently working as a Systems Engineer SME at [KLS Government Services](https://www.kls-llc.com/) contracted to NASA's [Independent Verification and Validation (IV&V) program](https://www.nasa.gov/katherine-johnson-ivv-facility/) at the Katherine Johnson IV&V Facility in Fairmont, West Virginia."
+      Systems Engineer trained in Aerospace and Mechanical Engineering with an extensive computer science background. Over 14 years of experience in analyzing complex systems focusing on safety and mission critical human space flight software. Additional expertise with digital twin environments in research, design, and execution of dynamic test cases for spacecraft flight software utilizing advanced simulation software packages. I am currently working as a Systems Engineer SME at [KLS Government Services](https://www.kls-llc.com/) contracted to NASA's [Independent Verification and Validation (IV&V) program](https://www.nasa.gov/katherine-johnson-ivv-facility/) at the Katherine Johnson IV&V Facility in Fairmont, West Virginia.
 
     skills:
       enable: true
