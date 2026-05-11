@@ -1,5 +1,5 @@
 baseURL: "https://rickybeamer.me"
-languageCode: "en-us"
+locale: "en-us"
 title: "Ricky Beamer's CV"
 theme: hugo-profile
 
@@ -91,18 +91,21 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      Systems Engineer trained in Aerospace and Mechanical Engineering with an extensive computer science background. Over 10 years of experience in analyzing complex systems focusing on safety and mission critical human space flight software. Additional expertise in research, design, and execution of dynamic test cases for spacecraft flight software utilizing advanced simulation software packages. I am currently working as a Systems Engineer SME at [KLS Government Services](https://www.kls-llc.com/) contracted to NASA's [Independent Verification and Validation (IV&V) program](https://www.nasa.gov/katherine-johnson-ivv-facility/) in Fairmont, WV.
+      "Systems Engineer trained in Aerospace and Mechanical Engineering with an extensive computer science background. Over 14 years of experience in analyzing complex systems focusing on safety and mission critical human space flight software. Additional expertise with digital twin environments in research, design, and execution of dynamic test cases for spacecraft flight software utilizing advanced simulation software packages. I am currently working as a Systems Engineer SME at [KLS Government Services](https://www.kls-llc.com/) contracted to NASA's [Independent Verification and Validation (IV&V) program](https://www.nasa.gov/katherine-johnson-ivv-facility/) at the Katherine Johnson IV&V Facility in Fairmont, West Virginia."
 
     skills:
       enable: true
       title: "Areas of Expertise"
       items:
-        - "System & Software Assurance"
+        - System & Software Assurance"
         - "Python"
         - "C++"
         - "Software Safety"
         - "Software Testing"
         - "Safety & Mission Assurance"
+        - "Guidance, Navigation, and Control (GN&C)"
+        - "Fault Detection, Isolation, and Recovery (FDIR)"
+        - "Environmental Control and Life Support Systems (ECLS)"
         - "Visual Basic"
         - "MATLAB"
         - "Linux"
@@ -126,8 +129,9 @@ params:
           enable: true
           content: More than 10 years of experience as a Systems Engineer.
         content: |
-          - Contracted to NASA's Independent Verification and Validation (IV&V) program focusing on safety and mission critical human spaceflight software
-          - Research, design, and execute dynamic test cases for spacecraft flight and ground software utilizing advanced simulation software packages
+          - Contracted to NASA’s Independent Verification and Validation (IV&V) program at the Katherine Johnson IV&V Facility in Fairmont, West Virginia, focusing on safety and mission critical human spaceflight software
+          - Research, design, and execute dynamic test cases for spacecraft flight and ground software utilizing advanced simulation and digital twin software packages
+          - Advancing organizational AI capabilities by integrating Large Language Models into software testing research and development
           - Transitioned to the IV&V Artemis Test Team in Spring 2020
           - Testing focused on examining critical functions necessary across Orion, Space Launch System (SLS), and Exploration Ground System (EGS) programs in support of planned Artemis missions
           - Testing focus includes:
@@ -135,11 +139,12 @@ params:
             - Ascent abort scenarios
             - Earth Orbit Operations and Orion Vehicle Checkout
             - Service Module Fairing failures and recovery operations
+            - Fault Detection, Isolation, and Recovery (FDIR) algorithms
           - Previously the IV&V Orion dynamic testing team lead from Fall 2013 until Spring 2020
           - Evaluated software requirements from definition through implementation and testing. Domain experience in:
-            - Timeline and Vehicle Management (TVM)
+            - Guidance, Navigation, Control, and Propulsion (GNCP)
             - Environmental Control and Life Support (ECLS)
-            - Guidance, Navigation, Control and Propulsion (GNCP)
+            - Timeline and Vehicle Management (TVM)
           - Analyzed software developed under Agile and Waterfall software development models
           - Mentored four year-long interns with projects involving the full lifecycle dynamic test process including test case proposal, script development, run-for-record testing, and closeout reports and determining the fedelity of the models utilized within the testing simulation environment
           - Mentored several summer college and high school interns. Responsible for ensuring interns become familiar with the available testing enviornments, conduct test following the proper procedures, and confirming that the results generated are appropriate for current and future analysis and planning. Projects involved:
@@ -183,7 +188,8 @@ params:
         date: "2009 - 2011"
         GPA: "3.6 out of 4.0"
         content: |
-          - Thesis: [Analysis of Aircraft Multiple Engine Configurations for Fault Tolerant Control](https://researchrepository.wvu.edu/etd/2295/)
+          - Thesis: _[Analysis of Aircraft Multiple Engine Configurations for Fault Tolerant Control](https://researchrepository.wvu.edu/etd/2295/)_
+            - This research develops a formal framework and a MATLAB/Simulink environment to analyze how engine thrust control can compensate for aircraft actuator failures. By employing a fuzzy logic controller, the study demonstrates that optimized engine placement and thrust dynamics can successfully mitigate severe flight control malfunctions. The resulting model provides a scalable tool for developing fault-tolerant systems in multi-engine aircraft.
           - Key Courses
             - Applied Linear Algebra
             - Numerical Analysis
